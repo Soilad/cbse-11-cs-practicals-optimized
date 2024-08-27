@@ -1,5 +1,5 @@
-def main(str = input('give string: ')):
-    print('is palindrome') if str == str[::-1] else print('not palindrome')
+def main(str):
+    print(f'is palindrome, reversed cases: {str.swapcase()}') if str == str[::-1] else print(f'not palindrome, reversed cases: {str.swapcase()}')
 
 if __name__ == '__main__':
-    main()
+    main(input('give string: '))
