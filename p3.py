@@ -11,7 +11,7 @@ def pattern2():
 # pattern 3??????
 def pattern3(x=''):
     for i in range(65,70):
-        print(x = f"{x}{chr(i)}")
+        print(x := f"{x}{chr(i)}")
 
 if __name__ == '__main__':
       pattern3()
