@@ -4,7 +4,7 @@ def main(l):
         if not n%i:
             l=1
             break
-    print(f'{n} is prime') if l == 0 else print(f'{n} is compsite')
+    print(f'{n} is prime') if not l else print(f'{n} is compsite')
 
 if __name__ == '__main__':
     main(0)
