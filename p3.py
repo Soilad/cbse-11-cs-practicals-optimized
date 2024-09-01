@@ -14,4 +14,6 @@ def pattern3(x=''):
         print(x := f"{x}{chr(i)}")
 
 if __name__ == '__main__':
+      pattern1()
+      pattern2()
       pattern3()
